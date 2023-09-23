@@ -1,0 +1,258 @@
+body {
+  font-family: "Roboto", sans-serif;
+
+  background-color: #fff;
+  color: #434455;
+}
+/**=========================LOGO==================**/
+.header-logo {
+  text-decoration: none;
+}
+.header-logo-italic {
+  color: #2e2f42;
+}
+
+.header-logo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/**======================NAVIG==========**/
+.header-menu-link {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.nav-list {
+  list-style: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.header-menu-link:focus {
+  color: #404bbf;
+}
+.header-menu-link:active {
+  color: #404bbf;
+}
+.header-menu-link:hover {
+  color: #404bbf;
+}
+
+.list {
+  list-style: none;
+}
+/**==============ADDRESS==========**/
+.address {
+  font-style: normal;
+}
+
+.address-list {
+  list-style: none;
+}
+
+.header-address-link {
+  color: #434455;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.header-address-link:active {
+  color: #404bbf;
+  font-style: normal;
+}
+.header-address-link:hover {
+  color: #404bbf;
+  font-style: normal;
+}
+.header-address-link:focus {
+  color: #404bbf;
+  font-style: normal;
+}
+
+/**=====================TITLE=======================**/
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.hero-btn {
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.hero-btn:hover {
+  background-color: #404bbf;
+}
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+
+/**====================ADVANT======================**/
+.advantages {
+  background-color: #ffffff;
+}
+
+.advantages-title {
+  background-color: #fff;
+  color: #434455;
+  line-height: 1.2;
+}
+
+.advantages-name {
+  color: #2e2f42;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.advantages-text {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/** =============================TEAM==================**/
+.team {
+  background-color: #f4f4fd;
+}
+.team-logo {
+  color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.team-list {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  background-color: #ffffff;
+}
+.team-name {
+  color: #2e2f42;
+
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-align: center;
+  line-height: 1.2;
+  background-color: #ffffff;
+}
+
+.team-position {
+  color: #434455;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  text-align: center;
+  line-height: 1.5;
+}
+/**==============PORTFOLIO============**/
+
+.portfolio-logo {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.portfolio-name {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+}
+
+.portfolio-text {
+  color: #434455;
+  font-family: Roboto;
+  line-height: 1.5;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+/**===============FOOTER==========**/
+
+.footer-back {
+  background-color: #2e2f42;
+}
+
+.footer-logo {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  line-height: 1.17;
+  text-decoration: none;
+}
+.footer-logo-italic {
+  color: #f4f4fd;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-text {
+  color: #f4f4fd;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
