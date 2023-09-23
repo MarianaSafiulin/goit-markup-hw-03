@@ -4,9 +4,34 @@ body {
   background-color: #fff;
   color: #434455;
 }
-/**=========================LOGO==================**/
+body {
+  margin: 0;
+  display: block;
+}
+img {
+  display: block;
+}
+.container {
+  width: 1158px;
+  padding: 0 15px 0 15px;
+  margin: 0 auto;
+  display: flex;
+  padding: 24px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
+}
+
 .header-logo {
   text-decoration: none;
+  margin-right: 76px;
 }
 .header-logo-italic {
   color: #2e2f42;
@@ -22,6 +47,11 @@ body {
   text-transform: uppercase;
 }
 
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+
 /**======================NAVIG==========**/
 .header-menu-link {
   color: #2e2f42;
@@ -32,7 +62,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
+
 .nav-list {
   list-style: none;
 }
