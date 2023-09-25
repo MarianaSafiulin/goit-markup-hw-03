@@ -11,28 +11,40 @@ body {
 img {
   display: block;
 }
+p,
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
 .container {
   width: 1158px;
-  padding: 0 15px 0 15px;
-  margin: 0 auto;
-  display: flex;
-  padding: 24px;
+  display: block;
 }
 
 .header-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
-.header-navigation {
+
+.haeder-section {
+  border-bottom: 1px solid #e7e9fc;
+  padding: 25px 150px;
+}
+
+.navigation {
   display: flex;
+  gap: 80px;
   align-items: center;
 }
 
-.header-logo {
-  text-decoration: none;
-  margin-right: 76px;
-}
 .header-logo-italic {
   color: #2e2f42;
 }
@@ -45,14 +57,16 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
 }
 
 .nav-menu {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 
-/**======================NAVIG==========**/
 .header-menu-link {
   color: #2e2f42;
   font-family: Roboto;
@@ -68,6 +82,18 @@ img {
 
 .nav-list {
   list-style: none;
+  display: flex;
+}
+
+.address {
+  font-style: normal;
+  display: flex;
+  margin-left: auto;
+}
+
+.address-list {
+  list-style: none;
+  display: flex;
 }
 
 .list {
@@ -87,14 +113,6 @@ img {
 .list {
   list-style: none;
 }
-/**==============ADDRESS==========**/
-.address {
-  font-style: normal;
-}
-
-.address-list {
-  list-style: none;
-}
 
 .header-address-link {
   color: #434455;
@@ -102,6 +120,7 @@ img {
   letter-spacing: 0.02em;
   line-height: 1.5;
   text-decoration: none;
+  margin: 40px;
 }
 
 .header-address-link:active {
@@ -116,10 +135,18 @@ img {
   color: #404bbf;
   font-style: normal;
 }
-
-/**=====================TITLE=======================**/
+/**============HERO==============**/
 .hero {
+  padding-bottom: 120px;
+}
+.hero-container {
   background-color: #2e2f42;
+  padding: 180px 47px;
+}
+.hero {
+  width: 1158px;
+  height: 600px;
+  flex-shrink: 0;
 }
 .hero-title {
   color: #fff;
@@ -127,6 +154,8 @@ img {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  margin: 0 auto;
+  max-width: 496px;
 }
 .hero-btn {
   color: #fff;
@@ -138,6 +167,9 @@ img {
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   cursor: pointer;
+  align-items: center;
+  display: block;
+  margin: 0 auto;
 }
 .hero-btn:hover {
   background-color: #404bbf;
@@ -149,6 +181,8 @@ img {
 /**====================ADVANT======================**/
 .advantages {
   background-color: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .advantages-title {
@@ -164,6 +198,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .advantages-text {
@@ -172,11 +207,13 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+/**======= TEAM====**/
 
-/** =============================TEAM==================**/
 .team {
   background-color: #f4f4fd;
+  padding-top: 120px;
 }
+
 .team-logo {
   color: #2e2f42;
   font-size: 36px;
@@ -184,28 +221,26 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.team-item {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
 .team-list {
   font-size: 20px;
   font-style: normal;
+  list-style: none;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
   background-color: #ffffff;
-}
-.team-name {
+  margin-top: 32px;
   color: #2e2f42;
-
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  text-align: center;
-  line-height: 1.2;
-  background-color: #ffffff;
 }
 
 .team-position {
@@ -219,7 +254,6 @@ img {
   text-align: center;
   line-height: 1.5;
 }
-/**==============PORTFOLIO============**/
 
 .portfolio-logo {
   color: #2e2f42;
@@ -230,6 +264,17 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
+  padding-top: 120px;
+  margin-bottom: 72px;
+}
+
+.portfolio-list {
+  display: flex;
+  gap: 24px;
+}
+
+.portfolio-item {
   text-align: center;
 }
 
@@ -252,10 +297,10 @@ img {
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-/**===============FOOTER==========**/
 
 .footer-back {
   background-color: #2e2f42;
+  padding-top: 100px;
 }
 
 .footer-logo {
@@ -288,4 +333,6 @@ img {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 100px;
+  max-width: 264px;
 }
