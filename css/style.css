@@ -197,7 +197,10 @@ ol {
 }
 
 /**====================ADVANT======================**/
-
+.advantages {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -207,14 +210,8 @@ ol {
   padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
-  clip: rect(0 0 0 0);
+  clip: rect (0 0 0 0);
   overflow: hidden;
-}
-
-.advantages {
-  background-color: #ffffff;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .advantages-title {
@@ -224,12 +221,12 @@ ol {
 }
 
 .advantages-item {
-  display: flex;
-  gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .advantages-list {
-  width: calc((100% - 72px) / 4);
+  display: flex;
+  gap: 24px;
 }
 .advantages-name {
   margin-bottom: 8px;
