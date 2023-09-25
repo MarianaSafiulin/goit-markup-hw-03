@@ -33,13 +33,13 @@ ol {
 
 .haeder-section {
   padding: 25px 150px;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
   display: flex;
   gap: 40px;
   padding: 0 15px 0 15px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .navigation {
@@ -98,12 +98,14 @@ ol {
 .address {
   font-style: normal;
   display: flex;
+  gap: 40px;
   margin-left: auto;
 }
 
 .address-list {
   list-style: none;
   display: flex;
+  gap: 40px;
 }
 
 .list {
