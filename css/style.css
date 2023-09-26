@@ -33,13 +33,13 @@ ol {
 
 .haeder-section {
   padding: 25px 150px;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
   display: flex;
   gap: 40px;
   padding: 0 15px 0 15px;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .navigation {
@@ -221,13 +221,15 @@ ol {
 }
 
 .advantages-item {
-  width: calc((100% - 72px) / 4);
-}
-
-.advantages-list {
+  list-style: none;
   display: flex;
   gap: 24px;
 }
+
+.advantages-list {
+  width: calc((100% - 72px) / 4);
+}
+
 .advantages-name {
   margin-bottom: 8px;
   color: #2e2f42;
@@ -315,13 +317,7 @@ ol {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.portfolio-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-}
+
 .portfolio-logo {
   color: #2e2f42;
   font-family: Roboto;
@@ -336,19 +332,23 @@ ol {
   margin-bottom: 72px;
 }
 
-.portfolio-list {
+.portfolio-item {
+  list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 32px 24px;
   row-gap: 48px;
+  column-gap: 24px;
 }
 
-.portfolio-item {
-  text-align: center;
-  width: calc((100% - 24 * 2) / 3);
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
-  background: var(--WHITE, #fff);
+.portfolio-list {
   width: calc((100% - 48px) / 3);
+}
+
+.portfolio-list-name {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 
 .portfolio-name {
