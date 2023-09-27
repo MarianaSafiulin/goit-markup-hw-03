@@ -67,6 +67,7 @@ ol {
 
 .nav-menu {
   display: flex;
+  gap: 40px;
   align-items: center;
 }
 
@@ -99,7 +100,7 @@ ol {
   align-items: center;
 }
 
-. .address-list {
+.address-list {
   list-style: none;
 }
 
