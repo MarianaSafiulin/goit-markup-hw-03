@@ -29,6 +29,7 @@ ol {
   width: 1158px;
   display: block;
   margin: 0 auto;
+  padding: 0 15px 0 15px;
 }
 
 .header-section {
@@ -37,13 +38,11 @@ ol {
 
 .header-container {
   display: flex;
-  gap: 40px;
-  padding: 0 15px 0 15px;
 }
 
 .navigation {
   display: flex;
-  flex-grow: 1;
+
   align-items: center;
   justify-content: space-between;
 }
@@ -97,10 +96,14 @@ ol {
   display: flex;
   gap: 40px;
   margin-left: auto;
+  align-items: center;
 }
 
-.address-list {
+. .address-list {
   list-style: none;
+}
+
+.address-item {
   display: flex;
   gap: 40px;
 }
@@ -129,7 +132,6 @@ ol {
   letter-spacing: 0.02em;
   line-height: 1.5;
   text-decoration: none;
-  margin: 40px;
 }
 
 .header-address-link:active {
@@ -164,7 +166,7 @@ ol {
   letter-spacing: 0.02em;
   margin: 0 auto;
   max-width: 496px;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 }
 .hero-btn {
   color: #fff;
@@ -255,7 +257,6 @@ ol {
 
 .team-container {
   width: 1158px;
-  padding: 32px 0;
 }
 
 .team-logo {
@@ -284,7 +285,6 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   background-color: #ffffff;
-  margin-top: 32px;
   color: #2e2f42;
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
@@ -325,7 +325,6 @@ ol {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 
@@ -345,7 +344,6 @@ ol {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .portfolio-name {
@@ -410,6 +408,6 @@ ol {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 100px;
+
   max-width: 264px;
 }
