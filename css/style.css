@@ -82,7 +82,7 @@ ol {
   text-decoration: none;
   padding-top: 24px;
   padding-bottom: 24px;
-  display: flex;
+  display: block;
   gap: 40px;
 }
 
@@ -238,7 +238,6 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  display: flex;
 }
 
 .advantages-text {
@@ -246,7 +245,6 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  display: flex;
 }
 /**================= TEAM==============**/
 
@@ -294,6 +292,10 @@ ol {
 .team-name {
   text-align: center;
   margin-bottom: 8px;
+  font-size: 500;
+  font-weight: 1.2;
+  line-height: 1.2;
+  letter-spacing: 0, 02em;
 }
 .name-container {
   padding: 32px 0;
@@ -393,13 +395,6 @@ ol {
 }
 .footer-logo-italic {
   color: #f4f4fd;
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 .footer-text {
   color: #f4f4fd;
